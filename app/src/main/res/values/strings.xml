@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AndroidMaster</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="add">Agregar</string>
+    <string name="remove">Quitar</string>
+    <string name="age">Edad</string>
+    <string name="calculate">Calcular</string>
+    <string name="recalculate">Re-Calcular</string>
+    <string name="result">Tu resultado</string>
+    <string name="error">Error</string>
+    <string name="underweight">Bajo peso</string>
+    <string name="underweight_description">Estas por debajo de lo óptimo para tu peso y altura</string>
+    <string name="normal">Normal</string>
+    <string name="normal_description">Estas en lo óptimo para tu peso y altura</string>
+    <string name="overweight">Sobrepeso</string>
+    <string name="overweight_description">Estas por encima de lo óptimo para tu peso y altura</string>
+    <string name="obesity">Obesidad</string>
+    <string name="obesity_description">Estas MUY por encima de lo óptimo para tu peso y altura</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="categories">Categorías</string>
+    <string name="tasks">Tareas</string>
+    <string name="add_task">Agregar Tarea</string>
+    <string name="add_the_task">Agrega la tarea</string>
+    <string name="business">Negocios</string>
+    <string name="personal">Personal</string>
+    <string name="others">Otros</string>
+    <string name="create_task">Crear tarea</string>
+
+</resources>
