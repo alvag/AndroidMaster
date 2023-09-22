@@ -1,11 +1,13 @@
 package com.maxalva.androidmaster.superhero
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.maxalva.androidmaster.databinding.ActivitySuperHeroListBinding
+import com.maxalva.androidmaster.superhero.DetailSuperHeroActivity.Companion.SUPER_HERO_ID
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -39,7 +41,7 @@ class SuperHeroListActivity : AppCompatActivity() {
 
         })
 
-        adapter = SuperHeroAdapter()
+        adapter = SuperHeroAdapter { navigateToDetail(it) }
         binding.recyclerView.setHasFixedSize(true)
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.adapter = adapter
@@ -67,6 +69,12 @@ class SuperHeroListActivity : AppCompatActivity() {
             .baseUrl("https://superheroapi.com/api/10231952155129002/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+    }
+
+    private fun navigateToDetail(id: String) {
+        val intent = Intent(this, DetailSuperHeroActivity::class.java)
+        intent.putExtra(SUPER_HERO_ID, id)
+        startActivity(intent)
     }
 
 }

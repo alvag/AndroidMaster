@@ -29,5 +29,11 @@
     <string name="others">Otros</string>
     <string name="create_task">Crear tarea</string>
     <string name="superhero">SuperHero</string>
+    <string name="intelligence">Inteligencia</string>
+    <string name="strength">Fuerza</string>
+    <string name="speed">Valocidad</string>
+    <string name="durability">Durabilidad</string>
+    <string name="power">Poder</string>
+    <string name="combat">Combate</string>
 
 </resources>
