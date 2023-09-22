@@ -28,5 +28,6 @@
     <string name="personal">Personal</string>
     <string name="others">Otros</string>
     <string name="create_task">Crear tarea</string>
+    <string name="superhero">SuperHero</string>
 
 </resources>
